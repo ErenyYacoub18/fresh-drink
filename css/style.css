@@ -1,0 +1,752 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 6000px;
+    background-color: f8edff;
+   
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(215, 187, 230);
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    opacity: 0.8;
+}
+.img1{
+    width: 150px;
+    height: 60px;
+    float: left;
+    margin-left: 150px;
+    
+}
+.list1{
+    list-style: none;
+    float: right;
+    margin:10px 150px;  
+}
+.list1 li{
+    display: inline-block;
+    margin-left: 25px;
+    color: c8b6ff;
+    font-size: 22px;
+}
+
+.lia2{
+    text-decoration:none; 
+}
+.div1{
+    height: 100vh;
+    background-image: url(../Images/pexels-jane-doan-1092730.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative;
+    right: 0;
+}
+.overlay1{
+    position: absolute;
+    width: 1472px;
+    height: 100vh;
+    background-color: rgba(30, 21, 21, 0.7);
+    right: 0;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    text-align: center;
+}
+.title1{
+    font-size: 50px;
+}
+.p1{
+    text-align: center;
+    letter-spacing: 2px;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.btn{
+    
+    width: 135px;
+    height: 47px;
+    border-radius: 6px;
+    border: 0;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-right: 12px;
+    margin-top: 10px;   
+}
+.btn2 {
+    background-color: 9f86c0;
+    color: #fff;
+}
+.btn:hover {
+    opacity: 0.7 ;
+}
+.sec2{
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+}
+
+.parent1{
+    overflow: auto;
+    overflow: hidden;
+}
+.div2{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    position: relative; 
+}
+.box1{
+    margin-left:150px; 
+    margin-right: 50px;
+    /* background-color: #c899e8; */
+    background-color: bbd0ff;   
+}
+.box2{
+    margin-right: 50px;
+    background-color: #c899e8
+}
+.box3{
+    background-color:  #bbd0ff;;
+}
+.i1{
+    margin-top: 10px;
+}
+.flly{
+    margin-bottom: 10px;
+}
+.p2{
+    letter-spacing: 2px;
+    padding: 0px 20px;
+}
+.li1{
+    
+    list-style: none;
+    text-decoration: none;
+}
+.line1{
+    width: 90px;
+    height: 4px;
+    background-color: c899e8;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -40px;
+}
+.div2::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(15, 14, 14);
+    opacity: 0;
+    transition: 2s;
+}
+.div2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;   
+}
+.sec3{
+    width: 100%;
+    height: 1050px;
+    background-color: grey;
+    margin-top: 200px;
+    overflow: auto;
+    background-color: rgb(232, 209, 245);
+    overflow: hidden;
+}
+.title2{
+    font-size: 40px;
+    text-align: center; 
+    margin-top: 40px;
+    color:#000;  
+}
+.line2{
+    width: 70px;
+    height: 4px;
+    background-color: bbd0ff;
+    margin: auto;
+    background-color: #7b34ab
+}
+.div50{
+    height: 75px;
+}
+.img2{
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 80px;
+    position: relative;
+}
+.f1{
+    margin-left: 250px;
+    margin-right: 50px;
+}
+.f2{
+    
+    margin-right: 50px;
+}
+.overlay3{
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    visibility: hidden;
+}
+.img2:hover .overlay3{
+    visibility: visible;
+}
+.img-tr{
+    padding: 20px 20px;
+}
+.word{
+    width: 300px;
+    height: 100px;
+    margin-top: 120px; 
+    text-align: center;
+    color: #fff;  
+}
+.word i{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.word p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.word h2{
+    margin-top: 10px;
+}
+.title4{
+    text-align: center;
+}
+.div51{
+    height: 100px ;
+
+}
+.title4{
+    font-size: 50px;
+}
+.line3{
+    width: 120px;
+    height: 4px;
+    background-color: 7b34ab;
+    margin: auto;
+}
+.div3{
+    width: 350px;
+    height: 170px;
+    background-color: e7c6ff;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+}
+.div3 i{
+    font-size: 40px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 30px;
+    color: #7b34ab;
+}
+.div3 h2{
+    margin-top: 40px; 
+    float: left; 
+    margin-left: 15px;
+}
+.div3 p{
+    float: right;
+    margin-left: 95px;
+}
+.parent3{
+    overflow: auto;
+}
+.box11{
+    margin-left: 170px;
+}
+.box22{
+    margin: 50px;
+}
+.div3::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(15, 14, 14);
+    opacity: 0;
+    transition: 2s;
+}
+.div3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s; 
+}
+.parent4{
+    height: 600px;
+    background-color: rgb(255, 245, 254);
+    overflow: auto;
+}
+.parent4 img{
+    border-radius: 50%;
+    margin-left: 270px;
+    
+}
+.span1{
+    width: 450px;
+    font-size: 20px;
+}
+.hchoose{
+    margin-left: 80px;
+    float: left;
+}
+.img4 li:hover{
+    color: #7e9ee2;
+}
+.line4{
+    width: 160px;
+    height: 4px;
+    background-color:#9d5bc9
+}
+.div53{
+    height: 100px;
+}
+.img4{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    float: left;
+}
+.div4{
+    height: 400px;
+    width: 100%;  
+    background-image: url(../Images/484bccd1f00e44e152ecf8797a9f4c24.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay4{
+    position: absolute;
+    width: 1470px;   
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    right: 0;
+}
+.overlay4 i{
+    font-size: 40px;
+   color: #7e9ee2;
+}
+.div41{
+    float: left;
+   margin-top: 200px;
+   color:#f3f0f6;
+   font-size: 20px;
+}
+.icon2{
+    margin-left: 200px;
+}
+.h-hap{
+    margin-top: 10px;
+}
+.hap3{
+    margin-left: 15px;
+}
+.hap1{
+    margin-left: 10px;
+}
+.hap2{
+    margin-left: 5px;
+}
+.paap3{
+    margin-left: 10px;
+}
+.paap4{
+    margin-right: 20px;
+}
+.div41 p{
+    font-size: 20px;
+}
+.hap4{
+    margin-left: 20px;
+}
+.hap{
+    margin-left: 270px;
+}
+.hap i{
+    margin-left: 12px;
+}
+.div5{
+    overflow: auto;
+}
+.div52{
+    width: 300px;
+    height: 400px;
+    background-color: bbd0ff;
+    float: left;
+    margin-top: 70px;
+    position: relative;
+}
+.div52 h4{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.div52 h2{
+    font-size: 40px;
+}
+.div52::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(15, 14, 14);
+    opacity: 0;
+    transition: 2s;
+} 
+.div52:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s; 
+}
+.div70{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff6f6;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+.div70 h4{
+    font-size: 15px;
+}
+h1{
+    font-size: 40px;
+}
+.div80{
+    text-align: center;
+    margin-top: 50px;
+}
+.div90{
+    height: 25px;
+    width: 120px;
+    background-color:c899e8;
+    margin-right: 50px;
+    margin: auto;
+}
+.box71{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.box72{
+   margin-right: 100px;
+}
+.div44{
+    height: 70px;
+}
+.div6{
+    height: 300px;
+    background-image: url(../Images/fresh-fruit-stalls-san-miguel-market.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;  
+}
+.overlay61{
+    height: 100%;
+    width: 1470px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    left: 0;
+    overflow: auto;
+}
+.parentmatch{
+    width: 50%;
+    
+    height: 300px;
+    float: left;  
+}
+.imgmatch{
+    border-radius: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 10px; 
+}
+.pmatch{
+    color: #f4eaea;
+}
+.wordmatch{
+    color: #f4eaea;
+    float: left;
+}
+.wordmatch2{
+    color: #f4eaea;
+}
+.img61{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(../Images/trainer-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.ere{
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.div101{
+    height: 200px;
+}
+.hteam{
+    font-size: 50px;
+    text-align: center;
+}
+.container1{
+    float: left;
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+}
+.erewo{
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.container2{
+    width: 80%;
+    margin: auto;
+}
+.ourteam{
+    overflow: auto;
+}
+.teamitem{
+    float: left;
+    width: 30%;
+    background-color: bbd0ff;
+    padding: 14px 18px;
+    text-align: center;
+    position: relative;
+}
+.teamitem::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(15, 14, 14); 
+    opacity: 0; 
+    transition: 2s;
+}
+.teamitem:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;  
+} 
+.teambox{
+    margin: 0px 5%;
+}
+.teamimg{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.rec1{
+    margin-left: 50px;
+}
+.teamimg img{
+    width: 100%;
+}
+.teamimg:hover img{
+    background-color: rgba(51, 49, 49, 0.9);
+}
+.teamoverlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.teamoverlay a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(121, 70, 155);
+    color: #fff;
+    font-size: 23px;
+    margin-left: auto;
+    visibility: hidden;  
+} 
+.teamitem:hover .teamoverlay a{ 
+    visibility: visible;
+} 
+.teamoverlay a i{
+    line-height: 40px;
+}
+.hrecent{
+    text-align: center;
+    font-size: 40px;
+}
+.linerecent{
+    width: 200px;
+    height: 3px;
+    background-color:#9d5bc9;
+    margin: auto;
+    margin-top: 4px;
+}
+.continer3{
+    width: 80%;
+    margin: auto;
+}
+.teamrecent{
+    overflow: auto;
+}
+.teamrecent a{
+    margin-left: 130px;
+    font-size: 20px;
+}
+.teamrecent p{
+    padding: 0px 25px;
+}
+.recentbox a{
+    text-decoration: none;
+}
+.recentbox{
+    width: 30%;
+    height: 560px;
+    float: left;
+    background-color: #bbd0ff;
+    border-radius: 10px;
+    position: relative;
+}
+.recentbox::after{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(15, 14, 14);
+    opacity: 0;
+    transition: 2s;
+}
+.recentbox:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+    transition: 1s;
+}
+.recentbox img{
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.iteam{
+    margin-left: 45px;
+    display: inline;
+}
+.hiteam{
+    text-align: center;
+}
+.recentbox i{
+    margin-left: 20px;
+}
+.rec2{
+    margin: 0px 20px;
+}
+.spaces{
+    height: 50px;
+}
+.finalsec{
+    background-color: rgb(215, 187, 230);
+    width: 100%;
+    height: 330px;
+    overflow: hidden;
+}
+.imgfinalsec{
+   margin: 50px 600px;
+   margin-bottom: 15px;
+}
+.finalicons i{
+   font-size: 40px;
+   color:#9d5bc9;
+   border-radius: 50%;  
+}
+.finalicons{
+    position: relative;
+}
+.finalicons i:hover{
+    opacity: 0.5;
+}
+.finall{
+    margin-right: 300px;
+    margin: auto;
+}
+.i1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.finalicons{
+    margin-left: 600px;
+}
+.final{
+    text-align: center;
+}
+.ul1{
+    display: inline-block;
+    position: absolute;
+    margin-top: 400px;
+    left: 1050px;
+}
+.div102{
+    height: 70px;
+}
+.hrline{
+    width: 100%;
+    height: 5px;
+    background-color:#9d5bc9
+}
